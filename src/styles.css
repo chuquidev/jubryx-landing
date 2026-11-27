@@ -147,7 +147,7 @@ button { cursor: pointer; }
 /* ===== Hero ===== */
 .hero { background: linear-gradient(160deg, var(--navy-950), var(--navy-800)); color: var(--white); padding-block: var(--sp-7) var(--sp-8); overflow: hidden; }
 .hero h1 { color: var(--white); font-size: var(--fs-3xl); margin-bottom: var(--sp-4); }
-.hero__grid { display: grid; gap: var(--sp-7); align-items: center; }
+.hero__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--sp-7); align-items: center; }
 .eyebrow { color: var(--teal-400); font-weight: 700; font-size: var(--fs-xs); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: var(--sp-3); }
 .hero__lead { font-size: var(--fs-lg); color: #cbd5e1; max-width: 52ch; margin-bottom: var(--sp-5); }
 .hero__search { position: relative; display: flex; gap: var(--sp-2); background: var(--white); padding: 6px; border-radius: var(--r-lg); max-width: 560px; }

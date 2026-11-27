@@ -17,5 +17,3 @@ npm run preview   # probar el build
 - Horario y redes sociales: `HOURS` y `SOCIALS` en `src/config.js` (vacíos = no se muestran)
 - Preguntas frecuentes: `src/components/Faq.jsx` (respuestas provisionales)
 - Logo: `src/components/Logo.jsx` y `public/favicon.svg` 
-
-Informe de calidad y pendientes: `AUDITORIA.md`.

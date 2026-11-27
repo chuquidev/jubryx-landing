@@ -31,11 +31,11 @@ export const ABOUT = {
 export const HOURS = 'Atención de 8:00 a. m. a 9:00 p. m.'
 
 // Redes sociales: aparecen en el contacto y en el pie cuando tienen url.
-// TikTok ya apunta a la cuenta de JUBRYX. Facebook, Instagram y YouTube apuntan por ahora
-// a la página principal de cada red: reemplaza cada url por la de tu cuenta cuando la tengas.
+// TikTok ya apunta a la cuenta de JUBRYX. Facebook, Instagram y YouTube quedan vacías (ocultas)
+// hasta tener las cuentas: coloca la url de cada una cuando exista.
 export const SOCIALS = [
-  { id: 'facebook', label: 'Facebook', url: 'https://www.facebook.com' },
-  { id: 'instagram', label: 'Instagram', url: 'https://www.instagram.com' },
+  { id: 'facebook', label: 'Facebook', url: '' },
+  { id: 'instagram', label: 'Instagram', url: '' },
   { id: 'tiktok', label: 'TikTok', url: 'https://www.tiktok.com/@jubryxtechnologies' },
-  { id: 'youtube', label: 'YouTube', url: 'https://www.youtube.com' },
+  { id: 'youtube', label: 'YouTube', url: '' },
 ]
